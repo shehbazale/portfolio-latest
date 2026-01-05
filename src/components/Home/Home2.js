@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/prof.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -18,7 +18,8 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            <p className="home-about-body">Detail-oriented and innovative Front End Developer with nearly 01 year of hands-on experience in web development. Adept at leveraging HTML, CSS, JavaScript, and modern library React.js and Next.js framework to create responsive, user-focused web applications. Proven expertise in implementing responsive designs using Bootstrap and Tailwind CSS. Skilled in building interactive user interfaces and single-page applications, as well as integrating frontend components with backend APIs. Proficient in version control using Git. Demonstrates excellent problem-solving abilities and a keen eye for detail, committed to delivering high-quality digital solutions</p>
+            {/* <p className="home-about-body">
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
@@ -50,11 +51,11 @@ function Home2() {
               <i>
                 <b className="purple"> React.js and Next.js</b>
               </i>
-            </p>
+            </p> */}
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar d-flex align-items-center justify-content-center">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" style={{width:'250px', height:'250px'}} />
             </Tilt>
           </Col>
         </Row>
@@ -67,7 +68,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/shehbazale"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +76,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
@@ -84,10 +85,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/shehbaz-ali/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +98,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/shehbaz_ale"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
